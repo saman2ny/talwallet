@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<meta charset=utf-8>
+<meta content="IE=edge" http-equiv=X-UA-Compatible>
+<meta content="width=device-width,minimum-scale=1,maximum-scale=1" name=viewport>
+<title>Talwallet - Coming Soon</title>
+<meta content="Add your website description here" name=description>
+<meta content=Talwallet,talwallet name=keywords>
+<link href=favicon.ico rel=icon>
+<link href=assets/css/bootstrap.min.css rel=stylesheet>
+<link href=assets/fonts/font-awesome.min.css rel=stylesheet>
+<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+<!--<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />-->
+<link rel="stylesheet" type="text/css" href="assets/css/set1.css" />
+<link href=assets/css/style.css rel=stylesheet>
+<section class=overlay id=Main>
+    <div id=particles-js></div>
+    <div class=overlay-content>
+        <div class=content>
+            <div class=content-inner>
+                <div class=coming-soon-text>
+                    <h1>coming soon</h1>
+                    <p>Our website is under construction, we are working very hard to give you the best experience with this one.</div>
+            </div><a href=javascript:void(0) class="btn btn-custom" onclick=openSubscribe()>subscribe</a> <a href=javascript:void(0) class="btn btn-custom" onclick=openContact()>contact</a></div>
+    </div>
+</section>
+<section class=overlay id=Subscribe><a href=javascript:void(0) class=closebtn onclick=closeSubscribe()>×</a>
+    <div class=overlay-content>
+        <div class=content>
+            <div class=content-inner>
+                <div class=title-box>
+                    <h2>Subscribe</h2></div>
+                <p>If you leave us your email address, we'll let you know when our new website goes online - to ensure you do not miss it. Likewise, we'll stay up with the latest with customary news about our organization, and additionally the periodic exceptional offer.
+                    <p>We'll never pass your email address on to outsiders, and you won't get any spam from us. That is a guarantee. Our messages are occasional, and we generally ensure they're loaded with only the best substance.
+                        <div class=mc-form-holder>
+                            <form id="sendermail" action=assets/php/mail.php method="post">
+                               <div class="col-md-6">
+		      <span class="input input--hoshi">
+					<input class="input__field input__field--hoshi" type="email" id="email" name="email"  required/>
+					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
+						<span class="input__label-content input__label-content--hoshi">Mail id</span>
+					</label>
+				</span>                 </div>             
+                                                           <div class="col-md-6">
+
+                                <button class=btn type=submit name="submit" value="submit" class="text-center"><i class="fa fa-paper-plane"></i>Submit</button></div>
+                                <label for=mc-email></label>
+                            </form>
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class=overlay id=myContact><a href=javascript:void(0) class=closebtn onclick=closeContact()>×</a>
+    <div class=overlay-content>
+        <div class=content>
+            <div class=content-inner>
+                <div class=title-box>
+                    <h2>Wanna Talk</h2></div>
+                <div class=row>
+                    <div class=col-sm-6>
+                        <div class=contact-details>
+                            <p>If you have any query, feedback or proposal, we would really like to hear from you. Please contact at any time and we'll get returned to you within 24 hours.
+                                <ul class=list-unstyled>
+                                    <li><i class="fa fa-fw fa-map-marker"></i>Earth
+                                        <li><i class="fa fa-fw fa-envelope-o"></i><a href=mailto:info@talwallet.com>info@talwallet.com</a>
+                                            <li><i class="fa fa-fw fa-globe"></i><a href=http://talwallet.com rel="noopener" target="_blank">talwallet.com</a></ul>
+                        </div>
+                    </div>
+                    <div class=col-sm-6>
+                              <form class=ajax-form id=contactForm method=post action=asset/php/contact.php>
+				<span class="input input--hoshi">
+					<input class="input__field input__field--hoshi" type="text" id="firstName" name="firstName"  required/>
+					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+						<span class="input__label-content input__label-content--hoshi">Name</span>
+					</label>
+				</span>
+				<span class="input input--hoshi">
+					<input class="input__field input__field--hoshi" type="email" id="email" name="email"  required/>
+					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
+						<span class="input__label-content input__label-content--hoshi">Mail id</span>
+					</label>
+				</span>
+				<span class="input input--hoshi">
+					<input class="input__field input__field--hoshi" type="text" id="mobile" name="mobile"  required/>
+					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-6">
+						<span class="input__label-content input__label-content--hoshi">Mobile</span>
+					</label>
+				</span>	
+                <span class="input input--hoshi">
+					<input class="input__field input__field--hoshi" type="text" id="message" name="message"  required/>
+					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-6">
+						<span class="input__label-content input__label-content--hoshi">Message</span>
+					</label>
+				</span>
+                        <button class="btn btn-custom disabled" type="submit" id="submit" name="submit" style="pointer-events: all; cursor: pointer;">Send Message</button>
+                        </form>
+                        
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src=assets/js/jquery-3.1.1.min.js></script>
+<script src=assets/js/particles.min.js></script>
+<script src=assets/js/app.js></script>
+<script src=assets/js/jquery.plugin.min.js></script>
+<script src=assets/js/jquery.countdown.js></script>
+<script src=assets/js/jquery.validate.min.js></script>
+<script src=assets/js/validator.min.js></script>
+<script src=assets/js/main.js></script>
+<script src="assets/js/classie.js"></script>
+<script src=assets/js/additional-methods.min.js></script>
+<script src=assets/js/jquery.easing.min.js></script>
+<script src=assets/js/valid.js></script>
+
+		<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
